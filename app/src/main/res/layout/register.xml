@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="0dp"
+    android:background="@drawable/img2"
+    tools:context="com.enrollapp.regi.register">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="373dp"
+        android:layout_height="430dp"
+        app:cardBackgroundColor="#ADFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/white"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/white"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/white"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/white"
+            android:ems="10"
+            android:hint="@string/mobile_number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextgender"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/white"
+            android:ems="10"
+            android:hint="@string/gender"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextyear"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/white"
+            android:ems="10"
+            android:hint="@string/year"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextbranch"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/white"
+            android:ems="10"
+            android:hint="@string/branch"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonregister"
+            android:layout_width="326dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/black"
+            android:text="@string/registers"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="390dp"
+            android:text="@string/already_have_an_account"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textviewlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="390dp"
+            android:text="@string/login"
+            android:textColor="#0d08f5"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/year"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginRight="150dp" />
+
+        <Spinner
+            android:id="@+id/branch"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp" />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="89dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="260dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="165dp"
+            tools:ignore="MissingConstraints"
+             />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
